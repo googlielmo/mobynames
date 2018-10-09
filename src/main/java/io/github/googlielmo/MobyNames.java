@@ -3,7 +3,7 @@ package io.github.googlielmo;
 import java.util.Random;
 
 /**
- *
+ * MobyNames is a Java port of the Moby Project random name generator
  */
 public class MobyNames {
 
@@ -832,6 +832,10 @@ public class MobyNames {
         return name;
     }
 
+    /**
+     * Prints a random name to standard output
+     * @param args ignored
+     */
     public static void main(String [] args) {
         System.out.println(getRandomName(0));
     }
